@@ -125,6 +125,7 @@ Description: Adds a new property to the database.
 Request Body: A JSON object representing the new property.
 
 Response: 201 Created with the newly created property object.
-`
-![alt text](React-Developer-Skill-Assessment-1\property-dashboard\src\screenshots\image.png)
-`
+
+📸 Screenshots
+
+![explore screenshot dir]('React-Developer-Skill-Assessment-1\property-dashboard\src\screenshots\image.png')
