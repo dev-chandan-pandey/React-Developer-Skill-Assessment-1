@@ -1,12 +1,40 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Mini Property Listing DashboardThis project is a React-based web application built as a skill assessment for a React Developer position. It provides a user-friendly interface to view, filter, add, and inspect property listings fetched from a mock API.✨ FeaturesDynamic Property Display: Fetches and displays a list of properties from a mock API endpoint.Card-Based UI: Each property is shown in a clean, modern card layout.Filtering: Users can filter properties by their type (e.g., Plot, Shed, Retail Store).Search with Highlighting: A search bar allows users to find properties by name or location, with the matched text highlighted in the results.Add New Properties: A dedicated form allows users to add new properties to the list. The list updates dynamically upon submission.Detailed View Pane: Clicking on a property displays its full details, including an image and description, in a dedicated pane on the right side of the screen.Responsive Design: The layout is designed to be functional and visually appealing across different screen sizes.🛠️ Tech StackFrontend: React.js (using Vite for the development environment)State Management: React Hooks (useState, useEffect, useMemo)API Client: AxiosMock Backend: json-serverStyling: Plain CSS with a modern, clean design.🚀 Getting StartedFollow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.PrerequisitesNode.js (v14 or newer)npm (usually comes with Node.js)Installation & SetupClone the repositorygit clone https://your-repository-url.git
+cd property-dashboard
+Install frontend dependenciesnpm install
+Set up and run the mock APIFirst, install json-server globally if you haven't already:npm install -g json-server
+In the project's root directory, run the following command to start the mock server using the db.json file.json-server --watch db.json --port 3001
+The API server will now be running at http://localhost:3001.Run the React development serverIn a new terminal window (while the API server is still running), start the React application:npm run dev
+The application will be available at http://localhost:5173 (or another port if 5173 is busy).📁 Project StructureThe project is organized into a clear component-based structure to promote reusability and maintainability./
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── AddPropertyForm.jsx   # Form for adding new properties
+│   │   ├── FilterBar.jsx         # Dropdown for filtering by type
+│   │   ├── PropertyCard.jsx      # Individual property card component
+│   │   ├── PropertyList.jsx      # Grid container for all property cards
+│   │   └── ViewDetailsPane.jsx   # Pane to show full details of a property
+│   │
+│   ├── services/
+│   │   └── api.js                # Handles all API calls (GET, POST)
+│   │
+│   ├── App.css                   # Main stylesheet for the application
+│   ├── App.jsx                   # Main application component, manages state
+│   └── main.jsx                  # Entry point of the React application
+│
+├── .gitignore
+├── db.json                       # Mock database for json-server
+├── index.html
+├── package.json
+└── README.md
+📝 API EndpointsThe application relies on a mock API provided by json-server.GET /propertiesDescription: Fetches an array of all property objects.Response: 200 OK[
+  {
+    "id": 1,
+    "type": "Plot",
+    "name": "Pune Greenfield",
+    "location": "Pune",
+    "price": 250000,
+    "description": "A large plot of land...",
+    "imageUrl": "..."
+  }
+]
+POST /propertiesDescription: Adds a new property to the database.Request Body: A JSON object representing the new property.Response: 201 Created with the newly created property object.
