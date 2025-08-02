@@ -1,0 +1,17 @@
+src/App.css
+body { font-family: sans-serif; background-color: #f0f2f5; margin: 0; }
+.dashboard-container { max-width: 1200px; margin: auto; padding: 20px; }
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.filter-bar { display: flex; gap: 15px; margin-bottom: 20px; }
+.search-input, .type-filter { padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+.main-content { display: grid; grid-template-columns: 2fr 1fr; gap: 30px; }
+.listings-section h2, .form-section h2 { margin-top: 0; }
+.property-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+.property-card { background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.add-property-form { display: flex; flex-direction: column; gap: 10px; background: white; padding: 20px; border-radius: 8px; }
+.add-property-form input, .add-property-form select, .add-property-form textarea, .add-property-form button { padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+.add-property-form button, header button { background-color: #007bff; color: white; border: none; cursor: pointer; }
+.modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.7); display: flex; justify-content: center; align-items: center; }
+.modal-content { background: white; padding: 20px; border-radius: 8px; max-width: 500px; position: relative; }
+.modal-close { position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 1.5rem; cursor: pointer; }
+.modal-image { max-width: 150px; width: 100%; height: auto; border-radius: 5px; margin-bottom: 15px; }
