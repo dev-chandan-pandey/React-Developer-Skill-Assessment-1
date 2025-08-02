@@ -1,3 +1,4 @@
+
 Mini Property Listing Dashboard
 This project is a React-based web application built as a skill assessment for a React Developer position. It provides a user-friendly interface to view, filter, add, and inspect property listings fetched from a mock API.
 
@@ -62,11 +63,13 @@ Run the React development server
 In a new terminal window (while the API server is still running), start the React application:
 `
 npm run dev
+
 `
 The application will be available at` http://localhost:5173 `(or another port if 5173 is busy).
 
 📁 Project Structure
 The project is organized into a clear component-based structure to promote reusability and maintainability.
+
 `
 /
 ├── public/
@@ -93,12 +96,14 @@ The project is organized into a clear component-based structure to promote reusa
 `
 📝 API Endpoints
 The application relies on a mock API provided by` json-server.`
+
 `
 GET /properties
 `
 Description: Fetches an array of all property objects.
 
 Response: `200 OK`
+
 `
 [
   {
