@@ -1,0 +1,106 @@
+{
+  "properties": [
+    {
+      "id": "1",
+      "type": "Plot",
+      "name": "Pune Greenfield",
+      "location": "Pune",
+      "price": 250000,
+      "description": "A large plot of land available for development, ideal for residential or commercial projects.",
+      "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef"
+    },
+    {
+      "id": "2",
+      "type": "Shed",
+      "name": "Bungalow Shed",
+      "location": "Bangalore",
+      "price": 76000,
+      "description": "An industrial shed in a prime location with easy access to major transport links.",
+      "imageUrl": "https://images.unsplash.com/photo-1589137215383-6597033512a2"
+    },
+    {
+      "id": "3",
+      "type": "Retail Store",
+      "name": "City Center Shop",
+      "location": "Hyderabad",
+      "price": 150000,
+      "description": "A commercial retail space in a bustling city center, perfect for a new business.",
+      "imageUrl": "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1"
+    },
+    {
+      "id": "4",
+      "type": "Plot",
+      "name": "Chennai Lands",
+      "location": "Chennai",
+      "price": 300000,
+      "description": "A spacious plot situated in a serene area, ready for immediate construction.",
+      "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef"
+    },
+    {
+      "id": "bde8",
+      "name": "chandan pandey",
+      "type": "Shed",
+      "price": 444444444,
+      "location": "Burhanpur, Madhya Pradesh",
+      "description": "dsfasdfsdfsdf",
+      "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef"
+    },
+    {
+      "id": "6a2f",
+      "name": "Career Edge - Knockdown the Lockdown",
+      "type": "Plot",
+      "price": 2,
+      "location": "Burhanpur, Madhya Pradesh",
+      "description": "scfaaaaaaafa",
+      "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef"
+    },
+    {
+      "id": "d755",
+      "name": "Cloud Application Developer",
+      "type": "Plot",
+      "price": 5,
+      "location": "Mumbai, Maharashtra, IND",
+      "description": "aswwsfasf",
+      "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef"
+    }
+  ],
+  "professionals": [
+    {
+      "id": "sumit-krishnan",
+      "templateId": 2,
+      "hero": {
+        "name": "Sumit Krishnan",
+        "title": "Drone Expert & Aerospace Engineer",
+        "profileImage": "https://i.imgur.com/QB0eS6b.png"
+      },
+      "about": {
+        "bio": "Specialized drone and aerospace training programs tailored for individuals, institutions, and researchers — led by a DGCA-Certified RPDL instructor with over 11+ years of experience in aviation education.",
+        "email": "sumit@droneacademy.com",
+        "phone": "+91-9876543210",
+        "location": "Hyderabad, Telangana"
+      },
+      "skills": [
+        { "name": "Drone Training", "level": 95 },
+        { "name": "Aerospace Expertise", "level": 92 },
+        { "name": "Technical Writing & Research", "level": 94 },
+        { "name": "Ground School & Simulation", "level": 90 },
+        { "name": "CFD & Wind Tunnel Testing", "level": 85 },
+        { "name": "Public Speaking & Presentations", "level": 89 },
+        { "name": "Practical Flying Sessions", "level": 98 },
+        { "name": "Curriculum Development", "level": 96 },
+        { "name": "Conference & Event Management", "level": 88 }
+      ],
+      "services": [
+        { "title": "Drone Pilot Training", "description": "Comprehensive RPAS training programs covering drone pilots of all Make-Drone Academy." },
+        { "title": "Aerospace Education", "description": "Aviation-focused instruction in core aerospace disciplines from fundamentals to applied projects." },
+        { "title": "Research & Technical Writing", "description": "Authoring support, curriculum building, and professional technical consulting in aerospace and drones." },
+        { "title": "Workshops & Event Management", "description": "Faculty development for aerospace & UAV educational events, including curriculum planning." }
+      ],
+      "achievements": [
+        { "title": "DGCA RPAS Instructor", "details": "Medium & Small Class Certified" },
+        { "title": "Published Author", "details": "Fundamentals of Propulsion' & 7 Research Papers" },
+        { "title": "Conference Organizer", "details": "ICAEAS - 2019, Aerospace & Safty" }
+      ]
+    }
+  ]
+}
